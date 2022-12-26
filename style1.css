@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500');  
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.2s linear;
+    color: black;
+  }
+  
+  
+  .button1 {
+      background-color:  #ff1100;
+      display: flex;
+      border-radius: 12px;
+  }
+  
+  .button2 {
+      background-color: green;
+      border-radius: 12px;
+      width: 100%;
+  }
+  
+  h1 {
+      font-size: 5.5em;
+  }
+  .flex-box-1 {
+      position:relative;
+  }
+
+table, td, th, tr   {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  background-color:#303030;
+  color:white;
+}
+
+.solid1 {
+ border-style: solid; 
+}
